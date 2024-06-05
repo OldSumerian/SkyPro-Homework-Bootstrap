@@ -267,6 +267,7 @@
         </header>
 
         <main class="row">
+            <span>
             <div class="row text-center">
                 <div class="col-4">
                     <div class="card mb-4 rounded-3 shadow-sm">
@@ -281,14 +282,123 @@
                                 Email support,
                                 Help center access
                             </p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Купить</button>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-light btn-success">Купить</button>
                         </div>
                     </div>
                 </div>
+                <div class="col-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="ExampleName" class="form-label">Имя</label>
+                            <input type="text" class="form-control" id="ExampleName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                   aria-describedby="emailHelp">
+                        </div>
+                        <button type="submit" class="btn btn-success">Отправить</button>
+                    </form>
+
+                </div>
+                <div class="container bg-success-subtle">
+                    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                        <h1 class="display-4 fw-normal text-body-emphasis">FAQ</h1>
+                    </div>
+                    <p class="d-inline-flex gap-1">
+                        <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#answer1"
+                                aria-expanded="false" aria-controls="answer1">
+                            Как купить?
+                        </button>
+                         <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                                 data-bs-target="#answer2"
+                                 aria-expanded="false" aria-controls="answer2">
+                            Как доставить?
+                        </button>
+                         <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                                 data-bs-target="#answer3"
+                                 aria-expanded="false" aria-controls="answer3">
+                            Какая гарантия?
+                        </button>
+                    </p>
+                    <div class="collapse" id="answer1">
+                        <div class="card card-body">
+                            Приобрести товар можно после отправки его в корзину.
+                        </div>
+                    </div>
+                    <div class="collapse" id="answer2">
+                        <div class="card card-body">
+                            Доставка товара осуществляется по почте либо через службу доставки.
+                        </div>
+                    </div>
+                    <div class="collapse" id="answer3">
+                        <div class="card card-body">
+                            В случае несоответствия товара заявленным гарантийным обязательствам,
+                            покупателю осуществляется возврат его стоимости в течение 1 месяца
+                        </div>
+                    </div>
+                </div>
+                <span class="border border-success">
+                <div class="container p-3">
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Номер</th>
+                                <th scope="col">Название товара</th>
+                                <th scope="col">Цена за штуку</th>
+                                <th scope="col">Количество</th>
+                                <th scope="col">Итоговая сумма</th>
+                                <th scope="col">статус заказа</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Гладиолус</td>
+                                <td>100</td>
+                                <td>5</td>
+                                <td>500</td>
+                                <td class="bg-primary">новый</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Тюльпан</td>
+                                <td>50</td>
+                                <td>15</td>
+                                <td>750</td>
+                                <td class="bg-warning">обработка</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Роза</td>
+                                <td>150</td>
+                                <td>3</td>
+                                <td>450</td>
+                                <td class="bg-success">обработан</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Орхидея</td>
+                                <td>300</td>
+                                <td>1</td>
+                                <td>300</td>
+                                <td class="bg-danger">отмена</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+                <span>
             </div>
+            </span>
         </main>
 
     </div>
+
 
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
