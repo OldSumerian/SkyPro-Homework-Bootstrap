@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "skypro-homework-bootstrap"
+version = "0.1.0"
+description = ""
+authors = ["Sumerian <shemerov.s@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "skypro_homework_bootstrap"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
